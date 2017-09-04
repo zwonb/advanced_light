@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.zwonb.mycustomview.InvalidTextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="Hello World!"/>
+
+    <com.zwonb.mycustomview.RectView
+        android:padding="20dp"
+        android:layout_marginTop="8dp"
+        app:rect_color="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"/>
+
+</LinearLayout>
